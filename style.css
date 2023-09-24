@@ -14,8 +14,10 @@ body {
        nav_start
  ------------------ */
 
-.main_nav {
+nav {
     background-color: #562EFF;
+    border-radius: 5px;
+    width: 100%;
 }
 
 .nav_info {
@@ -23,8 +25,9 @@ body {
     justify-content: space-between;
     padding: 25px 0;
     align-items: center;
-    width: 870px;
     margin: 0 auto;
+    width: 870px;
+
 }
 
 .logo img {
@@ -208,8 +211,6 @@ hr {
 
 @media only screen and (max-width: 576px) {
 
-    .main_nav {}
-
     .nav_info {
         justify-content: center;
     }
@@ -239,6 +240,17 @@ hr {
     .course_info {
         flex-direction: column;
     }
+
+    .reting_star {
+        justify-content: center;
+    }
+
 }
 
 @media only screen and (min_width: 577px) and (max-width: 992px) {
+    .nav_info {
+        nav: 100%;
+    }
+}
+
+@media only screen and (min_width: 993px) and (max-width: 1440px) {}
