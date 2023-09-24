@@ -23,7 +23,7 @@ body {
     justify-content: space-between;
     padding: 25px 0;
     align-items: center;
-    width: 60%;
+    width: 870px;
     margin: 0 auto;
 }
 
@@ -76,7 +76,6 @@ The main cestion start here
     border-radius: 5px;
     background: #FFF;
     width: 870px;
-    height: 680px;
     margin: auto;
 }
 
@@ -181,11 +180,65 @@ hr {
 }
 
 .course_img {
-    width: 100%;
+    width: 224px;
 
 }
 
 .reting_star {
     display: flex;
     justify-content: space-between;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
 }
+
+.time {
+    width: 95px;
+    height: 20px;
+    background-color: #FFE4E8;
+    border-radius: 25px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #FF4A60;
+    font-size: 16px;
+
+}
+
+@media only screen and (max-width: 576px) {
+
+    .main_nav {}
+
+    .nav_info {
+        justify-content: center;
+    }
+
+    .top_player {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .blog_container {
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+        justify-content: center;
+    }
+
+    .article {
+        align-items: center;
+        row-gap: 40px;
+    }
+
+    .course_bg {}
+
+    .cours_container {
+        flex-direction: column;
+    }
+
+    .course_info {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (min_width: 577px) and (max-width: 992px) {
